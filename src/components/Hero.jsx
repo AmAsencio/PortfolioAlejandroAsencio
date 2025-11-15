@@ -1,3 +1,4 @@
+import imagenAlejandro from './imagenes/Alejandro2.webp';
 export default function Hero() {
     return (
         <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
@@ -8,8 +9,8 @@ export default function Hero() {
                     <div className="relative">
                         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl">
                             <img
-                                src="https://via.placeholder.com/400"
-                                alt="Tu Nombre"
+                                src={imagenAlejandro}
+                                alt="Alejandro Asencio Montes"
                                 className="w-full h-full object-cover"
                             />
                         </div>

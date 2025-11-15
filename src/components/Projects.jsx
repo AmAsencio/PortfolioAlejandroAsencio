@@ -1,4 +1,8 @@
+import { useScrollReveal } from '../hooks/useScrollReveal'
+import portadaFocusTimer from './imagenes/FocusTimer.webp'
+
 export default function Projects() {
+    const [ref, isVisible] = useScrollReveal()
     const projects = [
         {
             title: 'Focus Timer',
@@ -6,7 +10,7 @@ export default function Projects() {
             tech: ['React', 'JavaScript', 'CSS'],
             github: 'https://github.com/tu-usuario/focus-timer',
             demo: 'https://focustimer.site/',
-            image: 'https://via.placeholder.com/400x300'
+            image: portadaFocusTimer
         },
         {
             title: 'Proyecto 2',
@@ -27,7 +31,11 @@ export default function Projects() {
     ]
 
     return (
-        <section id="projects" className="py-20 px-6 bg-gray-50 dark:bg-gray-800">
+        <section
+            id="projects"
+            ref={ref}
+            className={`py-20 px-6 bg-gray-50 dark:bg-gray-800 fade-in-right ${isVisible ? 'visible' : ''}`}
+        >
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
                     Proyectos Destacados

@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 
 export default function Contact() {
+    const [ref, isVisible] = useScrollReveal()
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -9,13 +11,16 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        // Aquí puedes agregar lógica para enviar el formulario
         console.log('Formulario enviado:', formData)
         alert('¡Mensaje enviado! (configura tu backend)')
     }
 
     return (
-        <section id="contact" className="py-20 px-6">
+        <section
+            id="contact"
+            ref={ref}
+            className={`py-20 px-6 fade-in-up ${isVisible ? 'visible' : ''}`}
+        >
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
                     Contacto

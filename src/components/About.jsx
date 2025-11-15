@@ -1,6 +1,14 @@
+import { useScrollReveal } from '../hooks/useScrollReveal'
+
 export default function About() {
+    const [ref, isVisible] = useScrollReveal()
+
     return (
-        <section id="about" className="py-20 px-6 bg-gray-50 dark:bg-gray-800">
+        <section
+            id="about"
+            ref={ref}
+            className={`py-20 px-6 bg-gray-50 dark:bg-gray-800 fade-in-up ${isVisible ? 'visible' : ''}`}
+        >
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">
                     Sobre mí
