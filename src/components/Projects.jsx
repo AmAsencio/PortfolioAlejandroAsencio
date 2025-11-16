@@ -1,5 +1,6 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 import portadaFocusTimer from './imagenes/FocusTimer.webp'
+import portadaSubiNails from './imagenes/Subinails.webp'
 
 export default function Projects() {
     const [ref, isVisible] = useScrollReveal()
@@ -13,12 +14,12 @@ export default function Projects() {
             image: portadaFocusTimer
         },
         {
-            title: 'Proyecto 2',
-            description: 'Descripción de tu segundo proyecto destacado.',
-            tech: ['Node.js', 'MySQL', 'React'],
-            github: 'https://github.com/tu-usuario/proyecto-2',
-            demo: 'https://tu-demo2.vercel.app',
-            image: 'https://via.placeholder.com/400x300'
+            title: 'SubiNails',
+            description: 'Version Frontend de SubiNails, una aplicacion web para la gestión de unas uñas personalizadas y citas.',
+            tech: ['HTML5', 'CSS3', 'JavaScript'],
+            github: 'https://github.com/AmAsencio/SubiNails',
+            demo: 'https://amasencio.github.io/SubiNails/servicios/unasacrilicas.html',
+            image: portadaSubiNails
         },
         {
             title: 'Proyecto 3',

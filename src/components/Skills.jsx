@@ -55,11 +55,6 @@ export default function Skills() {
             color: '#777BB4'
         },
         {
-            name: 'Symfony',
-            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg',
-            color: '#000000'
-        },
-        {
             name: 'Node.js',
             icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
             color: '#339933'
@@ -108,7 +103,6 @@ export default function Skills() {
                                     src={skill.icon}
                                     alt={skill.name}
                                     className="w-full h-full object-contain"
-                                    style={{ filter: 'brightness(0) invert(1)' }}
                                 />
                             </div>
                             <span className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
