@@ -50,8 +50,10 @@ export default function Experience() {
                             className={`relative mb-12 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12 md:ml-auto md:text-left'
                                 } md:w-1/2`}
                         >
-                            <div className="absolute left-0 md:left-auto md:right-0 md:transform md:translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white dark:border-gray-900 -translate-x-1.5 md:translate-x-0 top-2"></div>
-
+                            <div className={`absolute w-4 h-4 bg-blue-600 rounded-full border-4 border-white dark:border-gray-900 top-6 ${index % 2 === 0
+                                    ? 'left-0 -translate-x-1.5 md:left-auto md:right-0 md:translate-x-1/2'
+                                    : 'left-0 -translate-x-1.5 md:left-0 md:-translate-x-1/2'
+                                }`}></div>
                             <div className="ml-8 md:ml-0 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
                                 {item.status && (
                                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 ${item.status === 'En curso'

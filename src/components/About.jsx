@@ -15,18 +15,30 @@ export default function About() {
                 </h2>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                     <p>
-                        Soy un desarrollador full-stack junior apasionado por la tecnología y el desarrollo web.
-                        Actualmente cursando el <strong>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong>
-                        con un GPA de 8.9 en mi anterior formación en DAM.
+                        Soy un <strong>desarrollador full-stack</strong> con experiencia en <strong>React.js, TypeScript</strong> y metodologías ágiles.
+                        Actualmente cursando el Grado Superior en Desarrollo de Aplicaciones Web en el IES Mar de Alborán,
+                        con formación previa en DAM (nota media 8.6) en C.D.P.CENEC-Málaga.
                     </p>
                     <p>
-                        Tengo experiencia trabajando con <strong>React, Node.js, MySQL, PHP y Java</strong>.
-                        Me especializo en crear aplicaciones web modernas, responsivas y centradas en la experiencia del usuario.
+                        Mi experiencia profesional incluye <strong>prácticas en Accenture</strong> como tester de aplicaciones web y móviles,
+                        donde desarrollé habilidades en análisis, seguimiento de errores y trabajo colaborativo en equipos de calidad de software.
+                        Además, he trabajado como <strong>desarrollador web freelance</strong> para SubiNails, creando una interfaz web moderna con sistema
+                        de reservas online y optimización de la experiencia de usuario.
                     </p>
                     <p>
-                        Mi objetivo es encontrar una posición como desarrollador junior donde pueda aportar
-                        mis habilidades técnicas y seguir creciendo profesionalmente en un equipo dinámico.
+                        Mi objetivo es contribuir en un equipo dinámico como desarrollador junior, aportando calidad, adaptabilidad y
+                        enfoque a resultados mientras sigo creciendo profesionalmente en el ecosistema del desarrollo web full-stack.
                     </p>
+                </div>
+
+                {/* Badges destacados */}
+                <div className="mt-8 flex flex-wrap gap-3 justify-center">
+                    <span className="px-4 py-2 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 rounded-full font-semibold">
+                        🌍 Inglés Avanzado
+                    </span>
+                    <span className="px-4 py-2 bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300 rounded-full font-semibold">
+                        📍 Málaga, España
+                    </span>
                 </div>
             </div>
         </section>
