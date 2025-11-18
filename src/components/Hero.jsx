@@ -15,9 +15,13 @@ export default function Hero() {
                             />
                         </div>
                         {/* Badge de ubicación */}
-                        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-gray-900 px-4 py-2 rounded-full font-semibold text-sm shadow-lg">
+                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full font-bold text-xs sm:text-sm shadow-xl whitespace-nowrap flex items-center gap-1.5">
+                            <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                            </svg>
                             Málaga, España
                         </div>
+
                     </div>
 
                     {/* Contenido de texto */}
