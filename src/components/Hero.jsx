@@ -75,7 +75,7 @@ export default function Hero() {
 
                             {/* CV */}
                             <a
-                                href="/PortfolioAlejandroAsencio/AlejandroAsencioFullstack.pdf.pdf"
+                                href="/PortfolioAlejandroAsencio/AlejandroAsencioFullstack.pdf"
                                 download="AlejandroAsencioCV.pdf"
                                 className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
                             >
