@@ -4,7 +4,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 shadow-sm">
+        <header className="fixed inset-x-0 top-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50 shadow-sm">
             <nav className="container mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
