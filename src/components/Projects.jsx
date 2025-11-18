@@ -18,7 +18,7 @@ export default function Projects() {
             description: 'Aplicación web de gestión de tiempo con técnica Pomodoro. Construida con React y diseño minimalista para ayudar a mejorar la productividad y concentración mediante intervalos de trabajo y descanso.',
             tech: ['React', 'JavaScript', 'CSS'],
             category: 'Web App',
-            github: 'https://github.com/amasencio/focus-timer',
+            github: 'https://github.com/amasencio/FocusTimer',
             demo: 'https://focustimer.site/',
             image: portadaFocusTimer
         },
