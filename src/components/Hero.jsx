@@ -67,7 +67,7 @@ export default function Hero() {
 
                             {/* Carta de presentación - DESCARGA */}
                             <a
-                                href="/PortfolioAlejandroAsencio/AlejandroAsencioCarta.pdf"
+                                href="/AlejandroAsencioCarta.pdf"
                                 download="CartaPresentacionAlejandroAsencio.pdf"
                                 className="flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition font-medium"
                             >
@@ -80,7 +80,7 @@ export default function Hero() {
 
                             {/* CV */}
                             <a
-                                href="/PortfolioAlejandroAsencio/AlejandroAsencioFullstack.pdf"
+                                href="/AlejandroAsencioFullstack.pdf"
                                 download="AlejandroAsencioCV.pdf"
                                 className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-medium"
                             >
